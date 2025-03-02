@@ -41,6 +41,11 @@ async function main() {
     while(1) {
         const OrderInput = prompt('Enter an Order: ');
 
+        if (OrderInput === null) {
+            console.log('\nProcess terminated by user (Ctrl + C)');
+            process.exit(0); // Exit gracefully
+        }
+
         const FinalOrder = OrderInput
             .toLowerCase()
             .match(/[fblr]/g)
