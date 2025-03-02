@@ -43,5 +43,5 @@ How did I think and came up with the solution.
 The program entry point in every part is index.js
 
 ## How to run
-Using command line to node js run time
-`node ./index`
+1. First of all | You should Install all used node modules using `npm install` command.
+2. Using command line to node js run time `node ./index` to execute the script.
